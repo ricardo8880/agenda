@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#body-home-azul {
+    background-color: #008af6;
+}
+
+.header-home {
+    background-image: url('/img/fundo-mobile.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 600px;
+    position: relative;
+}
+
+#data-home {
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    color: white;
+}
+
+@media(min-width:500px) {
+    #data-home {
+        position: absolute;
+        top: 13px;
+        left: 40px;
+        color: white;
+    }
+}
+
+.box-home-mensagens {
+    padding-top: 200px;
+}
+
+@media(min-width:500px) {
+    .box-home-mensagens {
+        padding-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width:500px) {
+    .box-agenda {
+        width: 300px;
+    }
+}
+
+.display-3 {
+    font-size: 45px;
+}
+
+.display-4 {
+    font-size: 20px;
+}
+
+
+/*adicionar*/
+
+.form-adicionar p {
+    position: relative;
+}
+
+@media(min-width:500px) {
+    .form-adicionar {
+        width: 500px;
+    }
+}
+
+.form-adicionar label {
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+
+/*concluido*/
+
+.icone-feito {
+    position: absolute;
+    right: -39px;
+    bottom: 0;
+}
+
+.fundo-concluido {
+    min-height: 500px;
+    background-image: url('/img/fundo-concluido.png');
+    background-color: #ad9b8e;
+}
+
+@media(min-width:500px) {
+    .fundo-concluido {
+        background-image: url('/img/fundo-concluido2.png');
+    }
+}
+
+@media(min-width:500px) {
+    .concluido {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+
+/*adicionar*/
+
+body.adicionar {
+    background-color: white !important;
+}
