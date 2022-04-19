@@ -57,6 +57,7 @@ function atualizar() {
     let hora = date.getHours()
         //hora = 18
     let minutos = date.getMinutes()
+        //let minutos = 59
     let segundos = date.getSeconds()
 
 
